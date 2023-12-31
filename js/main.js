@@ -13,7 +13,7 @@ document.body.onload = function () {
     document.querySelector(".wishFrom").innerText = `From ${names[1]}`;
     localStorage.newYearYou = names[0];
   } else {
-    document.querySelector(".friendName").innerText = `Hello Teyei`;
+    document.querySelector(".friendName").innerText = `Hello There`;
     document.querySelector(".wishFrom").innerText = `From Dan-Codes`;
   }
 };
