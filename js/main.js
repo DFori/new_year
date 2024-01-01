@@ -1,7 +1,7 @@
 var firstScreen = document.getElementById("welcome");
 const names = window.location.search.substr(1).split("-");
 const wishTo = names[0];
-const wishFrom = names[1];
+const wishFrom = "Fori Daniel";
 
 document.body.onload = function () {
   firstScreen.querySelector("h2").innerText = `Made by Fori Daniel ${wishTo}`;
@@ -10,11 +10,11 @@ document.body.onload = function () {
 
   if (names[0]) {
     document.querySelector(".friendName").innerText = `Hello ${names[0]}`;
-    document.querySelector(".wishFrom").innerText = `From ${names[1]}`;
+    document.querySelector(".wishFrom").innerText = `From Fori Daniel`;
     localStorage.newYearYou = names[0];
   } else {
     document.querySelector(".friendName").innerText = `Hello There`;
-    document.querySelector(".wishFrom").innerText = `From Dan-Codes`;
+    document.querySelector(".wishFrom").innerText = `From Fori Daniel`;
   }
 };
 
