@@ -14,7 +14,7 @@ document.body.onload = function () {
     localStorage.newYearYou = names[0];
   } else {
     document.querySelector(".friendName").innerText = `Hello There`;
-    document.querySelector(".wishFrom").innerText = `From Fori Daniel`;
+    document.querySelector(".wishFrom").innerText = `From Fori Tech`;
   }
 };
 
