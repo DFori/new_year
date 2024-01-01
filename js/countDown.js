@@ -7,8 +7,7 @@ function showCountDown() {
   let ms = then.getTime() - now.getTime();
 
   if (ms < 0) {
-    countDown.innerHTML =
-      "It feels good getting to meet and know people like you. A bit 😂";
+    countDown.innerHTML = "";
     document.getElementById("adv").remove();
     tickMusic.pause();
   } else {
