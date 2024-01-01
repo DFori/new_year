@@ -4,7 +4,7 @@ const wishTo = names[0];
 const wishFrom = names[1];
 
 document.body.onload = function () {
-  firstScreen.querySelector("h2").innerText = `Hello ${wishTo}`;
+  firstScreen.querySelector("h2").innerText = `Made by Fori Daniel ${wishTo}`;
   firstScreen.querySelector("p").innerHTML =
     "Happy New Year <br> Click Start to Continue";
 
